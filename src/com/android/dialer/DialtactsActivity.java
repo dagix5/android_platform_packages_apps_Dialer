@@ -469,7 +469,7 @@ public class DialtactsActivity extends TransactionSafeActivity implements View.O
                 // show the dialpad because the user has explicitly clicked the dialpad
                 // button.
                 mInCallDialpadUp = false;
-                showDialpadFragment(true);
+                showDialpadFragment(false);
                 break;
             case R.id.dial_button:
                 // Dial button was pressed; tell the Dialpad fragment
